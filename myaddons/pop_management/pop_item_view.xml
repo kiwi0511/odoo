@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record model="ir.ui.view" id="pop.item-list">
+        <field name="name">pop.item.name</field>
+    </record>
+    <menuitem id="main_pop_management_menu" name="Pop management"/>
+    <menuitem id="pop_management_menu" name="Pop management" parent="main_pop_management_menu"/>
+</odoo>
